@@ -1,0 +1,42 @@
+.footer {
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  background: #222222;
+  height: 143px;
+  border-radius: 0px;
+  &__container {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 0px;
+    padding-top: 55px;
+    .footer__brand {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      font-style: normal;
+      font-weight: normal;
+      font-family: Lato-Regular;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #C2C2C2;
+    }
+    .footer__platform {
+      padding-top: 10px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      font-family: OpenSans-Regular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center;
+      color: #999999;
+    }
+  }
+}
